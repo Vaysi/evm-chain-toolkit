@@ -1,0 +1,23 @@
+{
+  "apiKey": "your_etherscan_api_key_here",
+  "filters": [
+    {
+      "address": "0x0000000000000000000000000000000000000001",
+      "startDate": "2025-01-01T00:00:00Z",
+      "endDate": "2025-01-31T23:59:59Z",
+      "includeInternal": true,
+      "includeTokenTransfers": true,
+      "includeERC721": true,
+      "includeERC1155": true
+    },
+    {
+      "address": "0x0000000000000000000000000000000000000002",
+      "startDate": "2025-02-01T00:00:00Z",
+      "endDate": "2025-02-28T23:59:59Z",
+      "includeInternal": false,
+      "includeTokenTransfers": true,
+      "includeERC721": false,
+      "includeERC1155": false
+    }
+  ]
+}
